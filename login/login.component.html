@@ -1,0 +1,21 @@
+
+  <div class="main">
+        <div class="f1 ">
+                 
+            <pre></pre>
+                <h1>My Bank <i class="fa-sharp fa-solid fa-building-columns"></i></h1>
+                <h6>{{aim}}</h6>
+                <pre>
+                </pre>
+                
+                <input (change)="acnochange($event)" class="q1 " type="text" [placeholder]="accounts" ><br>
+                <pre>
+                </pre>
+                <input  (change)="pswchange($event)" class="q1 " type="text" placeholder="Password"><br><pre></pre>
+                <button type="button" (click)="login()" class="btn btn-success">Login</button>
+                
+                <pre></pre>
+                <p>New User? <a class="link" (click)="register()" href="">REGISTER</a> </p>
+                </div>
+
+  </div>
